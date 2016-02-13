@@ -5,6 +5,7 @@ library(streamR)
 library(tm)
 library(wordcloud)
 
+#If using load gives you an error message - try using source() instead
 load("my_oauth.Rdata")
 
 shinyServer(function(input, output) {
